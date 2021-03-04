@@ -7,7 +7,8 @@ var cors = require('cors')
 
 app.use(cors())
 
-const port = process.env.PORT || frosty-khorana-ea9ba9;
+// const port = process.env.PORT || frosty-khorana-ea9ba9;
+const port=frosty-khorana-ea9ba9.netlify.app;
 
 app.use(express.static(__dirname + '/dist/statisticsofCoronavirus'));
 
