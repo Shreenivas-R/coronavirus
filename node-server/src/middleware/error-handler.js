@@ -1,6 +1,5 @@
 const { APIError, InternalServerError } = require('rest-api-errors');
 const { STATUS_CODES } = require('http');
-//const logger = require('./logger');
 
 const errorHandler = (err, req, res, next) => {
   const error = (err.status === 401 ||
