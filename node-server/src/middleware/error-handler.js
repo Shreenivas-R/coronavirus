@@ -12,7 +12,7 @@ const errorHandler = (err, req, res, next) => {
     // if it special error
     return res.status(405).json(err);
   }
-  // log error if needed 
+ 
 
   return res // return 500 for user
     .status(error.status || 500)
